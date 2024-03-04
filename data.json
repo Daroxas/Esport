@@ -1,0 +1,126 @@
+{
+    "tournaments": [
+        {
+            "id": 1,
+            "name": "Championnat du Monde LoL 2024",
+            "game": "League of Legends",
+            "date": "2024-11-05",
+            "teams": [
+                {
+                    "id": 1,
+                    "name": "Team SoloMid"
+                },
+                {
+                    "id": 2,
+                    "name": "Fnatic"
+                },
+                {
+                    "id": 3,
+                    "name": "G2 Esports"
+                },
+                {
+                    "id": 4,
+                    "name": "DAMWON Gaming"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "The International 2024",
+            "game": "Dota 2",
+            "date": "2024-08-15",
+            "teams": [
+                {
+                    "id": 5,
+                    "name": "Team Liquid"
+                },
+                {
+                    "id": 6,
+                    "name": "Virtus.pro"
+                },
+                {
+                    "id": 7,
+                    "name": "PSG.LGD"
+                },
+                {
+                    "id": 8,
+                    "name": "Evil Geniuses"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "CS:GO Major Championship 2024",
+            "game": "Counter-Strike: Global Offensive",
+            "date": "2024-05-20",
+            "teams": [
+                {
+                    "id": 9,
+                    "name": "Astralis"
+                },
+                {
+                    "id": 10,
+                    "name": "Natus Vincere"
+                },
+                {
+                    "id": 11,
+                    "name": "Team Vitality"
+                },
+                {
+                    "id": 12,
+                    "name": "FaZe Clan"
+                }
+            ]
+        }
+    ],
+    "matches": [
+        {
+            "id": 1,
+            "tournamentId": 1,
+            "teams": [
+                {
+                    "id": 1,
+                    "name": "Team SoloMid"
+                },
+                {
+                    "id": 2,
+                    "name": "Fnatic"
+                }
+            ],
+            "date": "2024-11-06",
+            "result": "Pending"
+        },
+        {
+            "id": 2,
+            "tournamentId": 2,
+            "teams": [
+                {
+                    "id": 5,
+                    "name": "Team Liquid"
+                },
+                {
+                    "id": 6,
+                    "name": "Virtus.pro"
+                }
+            ],
+            "date": "2024-08-16",
+            "result": "Pending"
+        },
+        {
+            "id": 3,
+            "tournamentId": 3,
+            "teams": [
+                {
+                    "id": 9,
+                    "name": "Astralis"
+                },
+                {
+                    "id": 10,
+                    "name": "Natus Vincere"
+                }
+            ],
+            "date": "2024-05-21",
+            "result": "Pending"
+        }
+    ]
+}

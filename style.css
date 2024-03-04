@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* 
+{
+  text-decoration: none;
+  list-style: none;
+}
+
+body 
+{
+  background-color: black;
+  color: white;
+  font-family:'Poppins', sans-serif;
+}
+
+header
+{
+  display: block;
+  text-align: center;
+  text-shadow: 3px 4px 8px rgb(255, 162, 1);
+  position: relative;
+  margin: 5rem 15% 6rem;
+}
+
+#Logo
+{
+  display: block;
+  border: 1px solid transparent;
+  width: 11%;
+  position: absolute;
+  right: 3%;
+  top: 3%;
+}
+
+#Logo:hover
+{
+  border: 1px solid white;
+}
+
+#Game
+{
+  position: relative;
+  margin: 0px 4px;
+  background-color: black;
+  color:rgb(255, 162, 0);
+  border: 2px solid rgb(255, 162, 0);
+  padding: 2px;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+}
+
+#sideMenu 
+{
+  position: fixed;
+  top:13vw;
+  right: -250px;
+  width: 150px;
+  height: 100%;
+  background-color: #1e1e1e;
+  transition: right 0.3s ease;
+}
+
+#sideMenu ul 
+{
+  list-style: none;
+  padding: 0;
+}
+
+#sideMenu li 
+{
+  padding: 10px;
+}
+
+#sideMenu li a 
+{
+  color: white;
+  text-decoration: none;
+}
